@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#500A0A"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/logoID_Design"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_above="@+id/Welcome_txt"
+        android:paddingBottom="-100dp"
+        android:src="@drawable/hasckerworld"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/Welcome_txt"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_centerInParent="true"
+        android:fontFamily="@font/alegreya_sc_black"
+        android:text="Welcome\n to\nCodeSoft"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+
+</RelativeLayout>
