@@ -13,12 +13,16 @@
         android:id="@+id/Relative_layout_page_View"
         android:layout_below="@id/Image_view_part_01"
         android:layout_width="match_parent"
+        android:gravity="center_vertical"
         android:layout_height="wrap_content">
 
         <TextView
-            android:id="@+id/IdText_Title"
-            android:layout_width="50dp"
-            android:layout_height="80dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="Welcome"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"/>
     </RelativeLayout>
 
 
