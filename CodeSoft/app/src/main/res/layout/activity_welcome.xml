@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:background="#500A0A"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".welcome">
 
 
     <ImageView
@@ -23,7 +23,7 @@
         android:layout_height="80dp"
         android:layout_centerInParent="true"
         android:fontFamily="@font/alegreya_sc_black"
-        android:text="Welcome\n to\nCodeSoft"
+        android:text="Welcome\n to\nCodSoft"
         android:textAlignment="center"
         android:textColor="@color/white"
         android:textSize="20dp"
